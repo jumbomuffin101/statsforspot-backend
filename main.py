@@ -25,7 +25,7 @@ CLIENT_ID = os.getenv("SPOTIFY_CLIENT_ID")
 CLIENT_SECRET = os.getenv("SPOTIFY_CLIENT_SECRET")
 
 # Local testing URI (must match Spotify Dashboard)
-REDIRECT_URI = "http://127.0.0.1:8000/callback"
+REDIRECT_URI = "https://statsforspot.onrender.com/callback"
 SCOPES = "user-top-read user-read-recently-played"
 
 @app.get("/login")
